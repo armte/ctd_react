@@ -1,12 +1,16 @@
-# React + Vite
+# Application: Todo List
+This application will furnish a UI that allows a user to manage a list of todo tasks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+The instiallation of this app leverage Vite+React. The first step was to initialize a react file structure by issuing the command:  
 
-Currently, two official plugins are available:
+`npm create vite@latest ./ -- --template react`  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+if prompted, select `react` and `javascript` for the inputs to the template and code selections.
 
-## Expanding the ESLint configuration
+Once your application has all the necessary resources, you can run the development server by issuing:  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running the Application
+`npm run dev`
+
+* You can specify server options to this command by supplying `--host` and `--port` options in the `dev` script definiton found in the package.json file. Other vite server options can be found [here](https://vite.dev/config/server-options).
